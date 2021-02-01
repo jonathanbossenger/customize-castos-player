@@ -12,8 +12,8 @@
  * @package         Myprefix_Castos_Player
  */
 
-add_filter( 'ssp_render_template', 'myprefix_render_template' );
-function myprefix_render_template( $template_content ) {
+add_filter( 'ssp_render_template', 'yourprefix_render_template' );
+function yourprefix_render_template( $template_content ) {
 
 	/**
 	 * Make sure we're rendering the castos player content
